@@ -1,0 +1,84 @@
+:root {
+    --mainColor : #252734;
+    --secondaryColor : #373835;
+    --acsenColor : #FF9100;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+/* Navbar */
+
+.nav-link.active {
+    color: var(--acsenColor) !important;
+    font-weight: 700px;
+}
+
+/* End Navbar */
+
+/* Hero */
+#hero {
+    color: #fff;
+    min-height: 100vh;
+}
+#hero h1 {
+    font-size: 3rem;
+}
+/* End Hero */
+
+/* About */
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsenColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 80px;
+    font-weight: bold;
+}
+/* End About */
+
+/* Skill */
+#skill {
+    min-height: 600px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 80px;
+    font-weight: bold;
+}
+
+#skill img {
+    width: 12%;
+    margin: 10%;
+}
+/* End Skill */
+
+/* Galeri Portofolio */
+#portofolio .container {
+    min-height: 600px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 80px;
+    font-weight: bold;
+}
+#portofolio .container {
+    width: 80%;
+    margin: 10%;
+}
+/* End Galeri Portofolio */
